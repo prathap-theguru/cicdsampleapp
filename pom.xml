@@ -5,7 +5,7 @@
   <groupId>org.example</groupId>
   <artifactId>sample</artifactId>
   <version>1.0</version>
-  <packaging>war</packaging>
+  <packaging>jar</packaging>
   <name>Tomcat Sample App</name>
   <!-- <dependencies>
     <dependency>

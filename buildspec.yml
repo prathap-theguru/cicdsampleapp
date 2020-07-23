@@ -8,16 +8,16 @@ phases:
     commands:
       - echo Entering pre_build phase...
       - echo Test started on `date`
-      - mvn clean compile test
+      #- mvn clean compile test
   build:
     commands:
       - echo Entering build phase...
       - echo Build started on `date`
-      - mvn war
+      - mvn install
   post_build:
     commands:
       - echo Entering post_build phase...    
       - echo Build completed on `date`
 artifacts:
   files:
-    - target/sample-1.0.war
+    - target/sample-1.0.jar
