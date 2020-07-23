@@ -8,7 +8,7 @@ phases:
     commands:
       - echo Entering pre_build phase...
       - echo Test started on `date`
-      - mvn clean compile test
+      #- mvn clean compile test
   build:
     commands:
       - echo Entering build phase...
