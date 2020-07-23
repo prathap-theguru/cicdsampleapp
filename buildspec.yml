@@ -19,6 +19,5 @@ phases:
       - echo Entering post_build phase...    
       - echo Build completed on `date`
 artifacts:
-artifacts:
   files:
     - sample/sample-1.0.war
